@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+input[type="text"] {
+  width: 100%;  /* Full-width */
+  padding: 12px 20px; /* Padding for text inside the box */
+  margin: 8px 0; /* Space between input fields */
+  display: inline-block; /* Ensures the input is a block element (fills the width of its container) */
+  border: 1px solid #ccc; /* Grey border */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border-radius: 4px; /* Rounded borders */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow around the input */
+  font-size: 16px; /* Larger font size for better readability */
+}
+
+input[type="text"]:focus {
+  border-color: #4A90E2; /* Highlighted border color when the field is focused */
+  outline: none; /* Removes the default focus outline */
+}
